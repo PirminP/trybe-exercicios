@@ -1,2 +1,2 @@
 # trybe-exercicios
-Todos os exerciocios feitos dentro dos modulos e blocos
+Todos os exercicios feitos dentro dos modulos e blocos
