@@ -25,7 +25,7 @@ h1, h2, h3 {
 
 nav {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border-bottom: 1px blue solid;
+    border-bottom: 1px darkgreen solid;
 }
 
 nav ul {
@@ -41,4 +41,22 @@ nav ul li {
     padding-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+table td{
+    border: 1px solid grey;
+    border-collapse: separate;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+aside, footer, nav {
+    border-top: 1px darkgreen solid;
 }
