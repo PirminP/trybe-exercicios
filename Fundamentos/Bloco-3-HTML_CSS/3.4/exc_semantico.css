@@ -1,0 +1,10 @@
+.centered {
+    margin: 50px;
+}
+.header {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
