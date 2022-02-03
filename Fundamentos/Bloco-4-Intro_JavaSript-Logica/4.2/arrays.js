@@ -40,7 +40,7 @@ let indexOfPortfolio = menu.indexOf('Portfólio');
 console.log(indexOfPortfolio);
 
 //Exc3
-let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
+/*let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
 
 console.log(menu.push('Contato'));
-console.log(menu);
+console.log(menu);*/
