@@ -55,3 +55,28 @@ for (let i = 0; i < numbers.length; i += 1) {
     }
  }
  console.log(impar);
+
+ //7
+ let smallerNumber = numbers[0];
+ for (let i = 1; i < numbers.length; i += 1) {
+    if(numbers[i] < smallerNumber) {
+       smallerNumber = numbers[i];
+    }
+ }
+ console.log(smallerNumber);
+
+ //8
+ let array = [];
+ for (let i =1; i <= 25; i += 1) {
+    array.push(i);
+ }
+ console.log(array)
+
+ //9
+ let div = [];
+ let result = 0;
+ for (let i =0; i < array.length; i += 1) {
+    result = array[i] / 2;
+    div.push(result);
+}
+console.log(div);
