@@ -46,18 +46,20 @@ console.log(bigWord);
 console.log(smallWord);
 
 //4
-let biggestPrimeNumber = 0;
+let number = 50;
+let div = 0;
+let numberOdd = [];
 
-for (let currentNumber = 0; currentNumber <= 50; currentNumber += 1) {
-  let isPrime = true;
-  for (let currentDivisor = 2; currentDivisor < currentNumber; currentDivisor += 1) {
-    if (currentNumber % currentDivisor === 0) {
-      isPrime = false;
-    }
+for (let i =1; i <= number; i+=1) {
+    div = 0;
+  for (let x = 1; x <= i; x+=1){
+      if (i % x == 0){
+          div+=1;
+      }    
   }
-  if (isPrime) {
-    biggestPrimeNumber = currentNumber;
+  if (div == 2) {
+    numberOdd.push(i)
   }
 }
-
-console.log(biggestPrimeNumber);
+console.log ('Valores Primos =', numberOdd);
+console.log ('Maior valor primo=', numberOdd[numberOdd.length-1]);
