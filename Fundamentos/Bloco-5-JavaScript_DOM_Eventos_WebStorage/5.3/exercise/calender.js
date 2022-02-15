@@ -60,7 +60,7 @@ function displayHolidays() {
     let getHolidayButton = document.querySelector('#btn-holiday');
     let getHolidays = document.querySelectorAll('.holiday')
     let backgroundColor = 'rgb(238,238,238)';
-    let setNewColor = 'white';
+    let setNewColor = 'blue';
   
     getHolidayButton.addEventListener('click', function() {
       for (let i = 0; i < getHolidays.length; i += 1) {
@@ -109,3 +109,48 @@ function displayHolidays() {
   displayFridays(dezFridays);
 
   //6
+  function dayMouseOver() {
+    let days = document.querySelector('#days');
+  
+    days.addEventListener('mouseover', function(event) {
+      event.target.style.fontSize = '30px';
+      event.target.style.fontWeight = '600';
+    })
+  };
+  
+  function dayMouseOut() {
+    let days = document.querySelector('#days');
+  
+    days.addEventListener('mouseout', function(event) {
+      event.target.style.fontWeight = '200';
+      event.target.style.fontSize = '20px';
+    })
+  };
+  
+  dayMouseOver();
+  dayMouseOut();
+
+  //7
+  function newTaskSpan(task) {
+
+    let tasksContainer = document.querySelector('.my-tasks');
+    let taskName = document.createElement('span');
+  
+    taskName.innerHTML = task;
+    tasksContainer.appendChild(taskName);
+  };
+  
+  newTaskSpan('Projeto:');
+
+  //8
+  function newTaskDiv(color) {
+
+    let tasksContainer = document.querySelector('.my-tasks');
+    let newTask = document.createElement('div');
+  
+    newTask.className = 'task';
+    newTask.style.backgroundColor = color;
+    tasksContainer.appendChild(newTask);
+  };
+  
+  newTaskDiv('green');
