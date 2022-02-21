@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Travel forms</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="speaker-form-header">
+    <h1>TrybeTrips - Let us enjoy life!</h1>
+  </header>
+  <main>
+    <!-- form -->
+    <form action="" method="get" class="speaker-form">
+
+      <!-- input - full-name and email -->
+        <div class="line-content">
+          <div class="form-row">
+            <label for="full-name">Full name:</label>
+            <input required type="text" placeholder="Type your full name" maxlength="40" minlength="10" name="full-name" id="full-name">
+            <label for="email">Email:</label>
+            <input required placeholder="Type your email" maxlength="50" minlength="10" type="text" name="email" id="email">
+          </div>
+        </div>
+      <!-- Radio input - destination   -->
+        <div class="line-content">
+          <div class="radio-form-row">
+            <p>Where do you want to travel?</p>
+            <input type="radio" name="destination" id="destination-1" value="main-stage">
+            <label for="destination-1">City</label>
+            <input type="radio" name="destination" id="destination-2" value="main-stage">
+            <label for="destination-2">Landscape</label>
+            <input type="radio" name="destination" id="destination-3" value="main-stage">
+            <label for="destination-3">Beach</label>
+            <input type="radio" name="destination" id="destination-4" value="main-stage">
+            <label for="destination-4">Mountain</label>
+          </div>
+        </div>
+        <div class="line-content">
+          <label for=""> Why you would like to be the web development student to win the TrybeTrip?:</label>
+          <textarea placeholder="Write here your answer..." name="abstract" id="abstract" cols="60"
+          rows="10"></textarea>
+        </div>
+      <!-- input data - available -->
+      <div class="line-content">
+        <label for="date-available">Which date suits you best to travel?</label>
+        <input type="date" name="available" id="date-available">
+      </div>
+      <!-- Checkbox - promo and image -->
+      <div class="line-content">
+        <p>Would you like to receive other incredible offers of Trybe?</p>
+        <label for="promo-1">Yes, of course</label>
+        <input type="checkbox" name="promo" id="promo-1">
+        <label for="promo-2">No, please not</label>
+        <input type="checkbox" name="promo" id="promo-2">
+        <p>Do you agree that Trybe uses your holiday snaps for advertising?</p>
+        <label for="advert-1">Yes</label>
+        <input type="checkbox" name="advert" id="advert-1">
+        <label for="advert-2">No</label>
+        <input type="checkbox" name="advert" id="advert-2">
+      </div>
+      <!-- button - submit -->
+      <div class="line-content">
+        <button type="submit">Let's Trypetripping!</button>
+      </div>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+
