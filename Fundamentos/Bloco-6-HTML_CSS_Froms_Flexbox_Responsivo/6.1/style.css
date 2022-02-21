@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+  
+body {
+  color: rgb(93, 96, 99);
+  background-color: rgb(98, 128, 3);
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+  
+.speaker-form-header {
+  text-align: center;
+  background-color: rgb(278, 207, 248);
+  border: 1px solid rgb(214, 217, 220);
+  border-radius: 20px;
+  width: 80%;
+  margin: 20px auto;
+  padding: 50px;
+}
+  
+.speaker-form-header h1 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+  
+.speaker-form {
+  background-color: rgb(99, 145, 200);
+  border: 1px solid rgb(214, 217, 220);
+  border-radius: 20px;
+  width: 80%;
+  padding: 50px;
+  margin: 0 auto 40px auto;
+}
+  
+.form-row {
+  margin-bottom: 40px;
+}
+  
+.form-row input[type="text"] {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(214, 217, 220);
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+}
+  
+.form-row label {
+  margin-bottom: 15px;
+}
+.line-content {
+  margin: 20px;
+  border: 0 none;
+} 
+  
+.radio-form-row {
+  padding: 10px;
+}
+textarea {
+  width: 100%;
+  margin-top: 15px;
+  resize: none;
+}
+
+button {
+  padding: 10px;
+  /* margin-left: 20px; */
+}
