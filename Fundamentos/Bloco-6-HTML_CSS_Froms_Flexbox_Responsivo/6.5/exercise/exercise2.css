@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+  box-sizing: inherit;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  @media screen and (min-width:1024px) {
+    body {
+      background-color: aqua;
+    }
+
+    .container {
+      flex-wrap: nowrap;
+    }
+  }
+
+  @media screen and (min-width:768px) {
+    body {
+      background-color: royalblue;
+      font-family: fantasy;
+    }
+
+    .container {
+      flex-wrap: wrap;
+    }
+  }
+
+  @media screen and (max-width:767px) {
+    body {
+      background-color: saddlebrown;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .container {
+      flex-direction: column;
+    }
+
+  }
