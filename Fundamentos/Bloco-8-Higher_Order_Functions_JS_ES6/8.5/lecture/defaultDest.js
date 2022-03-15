@@ -16,3 +16,4 @@ const [x, y, z = 2.7] = position2d; //Default setting
 console.log(x);
 console.log(y);
 console.log(z);
+
