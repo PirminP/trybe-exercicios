@@ -1,3 +1,6 @@
+// Array destructuring
+// Example 1
+
 const arrayCountries = ['Brazil', 'Japan', 'China', 'Canada'];
 const [firstCountry, secondCountry, thirdCountry, fourthCountry] = arrayCountries;
 
