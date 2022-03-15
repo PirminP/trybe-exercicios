@@ -1,13 +1,13 @@
 // Object Destructuring
 // Example 1
-// const product = {
-//     name: 'Smart TV Crystal UHD',
-//     price: '1899.05',
-//     seller: 'Casas de Minas',
-//   };
+const product = {
+    name: 'Smart TV Crystal UHD',
+    price: '1899.05',
+    seller: 'Casas de Minas',
+  };
 
-// const { name, seller } = product;
-// console.log(seller);
+const { name, seller } = product;
+console.log(seller);
 
 // Example 2 Object
 // definindo o objeto
@@ -43,4 +43,4 @@ const student = {
   console.log(classAssigned); // Turma B
   console.log(subject); // Matemática
 
-  
+
