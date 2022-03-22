@@ -138,3 +138,4 @@ const sendMarsTemperature = (onSuccess, onError) => {
 sendMarsTemperature(temperatureInFahrenheit, handleError);
 sendMarsTemperature(greet, handleError);
 
+// Missing Task 7-10...
