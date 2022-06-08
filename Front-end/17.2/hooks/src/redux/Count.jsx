@@ -32,7 +32,7 @@
 // export default Count;
 
 
-// Example with function and hooks
+// Example with function and hooks: useState
 
 import React, { useState } from "react";
 
