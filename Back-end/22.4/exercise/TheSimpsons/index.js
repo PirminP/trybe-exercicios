@@ -1,4 +1,4 @@
-// Exercise 6
+// Exercise 5/6: Crie um endpoint GET /simpsons
 const express = require('express');
 const bodyParser = require('body-parser');
 
@@ -17,6 +17,7 @@ app.get('/simpsons', async (req, res) => {
   }
 });
 
+// Exercise 7: Crie um endpoint GET /simpsons/:id
 app.get('/simpsons/:id', async (req, res) => {
     try {
       const simpsons = await simpsonsUtils.getSimpsons();
@@ -32,6 +33,7 @@ app.get('/simpsons/:id', async (req, res) => {
     }
   });
 
+// Exercise 8: Crie um endpoint POST /simpsons
   app.post('/simpsons', async (req, res) => {
     try {
       const { id, name } = req.body;
